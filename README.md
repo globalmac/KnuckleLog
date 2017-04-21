@@ -8,7 +8,7 @@ Its feature is that it handles part of the file with a row limit, and it also re
 
 Tests on access.log => 500 MB.
 
-Docs comming soon...
+Docs coming soon...
 
 ## Usage
 
