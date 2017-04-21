@@ -1,2 +1,2 @@
-# knuckle-puck
+# KnuckleLog
 PHP Nginx access log parser
