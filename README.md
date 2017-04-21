@@ -1,6 +1,6 @@
 # KnuckleLog
 
-PHP fast & low memory usage Nginx access log parser.
+Standalone PHP fast & low memory usage class for Nginx access log parsing.
 
 This class is designed to parsing small or large NGINX access log files.
 
