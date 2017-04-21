@@ -14,18 +14,18 @@ Docs comming soon...
 
 ```php
 
-  // Initialize (parse nginx accesss log in default format with offset = 0 and limit 10 lines 
-  $data = new KnuckleLog('/var/log/nginx/access.log', '%h %l %u %t "%r" %>s %O "%{Referer}i" \"%{User-Agent}i"', 0, 10);
-  
-  // Get array of data & data count
-  $array = $data->worker();
+// Initialize (parse nginx accesss log in default format with offset = 0 and limit 10 lines 
+$data = new KnuckleLog('/var/log/nginx/access.log', '%h %l %u %t "%r" %>s %O "%{Referer}i" \"%{User-Agent}i"', 0, 10);
 
-  // Total lines in log file
-  echo '<h1>'.$array['totalLines'].'</h1>';
+// Get array of data & data count
+$array = $data->worker();
 
-  // Dump data array
-  echo '<pre>';
-  print_r($array['data']);
-  echo '</pre>';
+// Total lines in log file
+echo '<h1>'.$array['totalLines'].'</h1>';
+
+// Dump data array
+echo '<pre>';
+print_r($array['data']);
+echo '</pre>';
 
 ```
